@@ -2,6 +2,9 @@
 
 Docker image for speeding up automated testing.
 
+## CI
+Github actions are used to build and push the image to docker hub.
+
 ### Build
 
 `docker build --tag drupal-testing-docker:1.1 .`
